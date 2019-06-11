@@ -29,4 +29,28 @@ function displayItems() {
     promptPurchase();
 }
 
+function promptOptions() {
+    inquirer.prompt({
+            name: "task",
+            type: "list",
+            message: "How can we help you?",
+            choices: [
+                "Shop for Products",
+                "Leave Store"
+            ]
+        })
+        .then(function(answer) {
+            switch (answer.task) {
+                case "Shop for Products":
+                    displayItems();
+                    break;
+                case "Leave Store":
+                    console.log("Thank you for shopping with us");
+                    connection.end();
+                    break;
+            }
+        })
+}
+
+
 

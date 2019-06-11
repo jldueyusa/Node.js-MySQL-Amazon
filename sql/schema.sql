@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS bamazon;
 CREATE database bamazon;
 USE bamazon;
 
-CREATE TABLE products (
+CREATE TABLE products(
   position INT NOT NULL AUTO_INCREMENT,
   item_id INT NOT NULL,
   product_name VARCHAR(50) NOT NULL,
