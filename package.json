@@ -1,0 +1,23 @@
+{
+  "name": "node.js-mysql-amazon",
+  "version": "1.0.0",
+  "description": "Week 13 homework",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jldueyusa/Node.js-MySQL-Amazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jldueyusa/Node.js-MySQL-Amazon/issues"
+  },
+  "homepage": "https://github.com/jldueyusa/Node.js-MySQL-Amazon#readme"
+}
